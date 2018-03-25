@@ -25,6 +25,68 @@ body {
     z-index: 10;
     width: 50%;
 }
+
+.hat{
+	
+	background-color: black;
+	width: 80px;
+	height: 80px;
+	border-top-left-radius: 15%;
+	border-top-right-radius: 15%;
+	position: absolute;
+	top: -70px;
+	left: 22px;
+}
+
+.rim{
+	background-color: black;
+	width: 120px;
+	height: 30px;
+	border-radius: 50%;
+	position:absolute;
+	top: 70px;
+	left: -20px;
+	
+	
+}
+
+
+.face{
+	margin:40px auto;
+	height: 30px;
+	position: relative;
+	width: 50%;
+}
+.eye, .nose, .mouth{
+	border: thin #000 solid;
+	width: 20px;
+	height: 15px;
+	background-color: black;
+	border-radius:45%;
+}
+.leye{
+	float: left;
+}
+
+.reye{
+	float:right;
+}
+
+.nose, .mouth{
+	clear: both;
+	margin: auto;
+}
+
+.nose{
+	margin-top:20px;
+	height: 30px;
+}
+
+.mouth{
+	margin-top: 10px;
+	width: 50px;
+}
+
 .smBody {
     height: 200px;
     position: relative;
