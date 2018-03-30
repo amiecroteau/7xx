@@ -17,3 +17,10 @@ inside out project step 700 branch 700-1
 - added snowman face and hat divs to index.html
 
 -created styles for snowman face and hat divs
+
+-added snow hill for snowman
+
+-updated html for hill div
+
+
+-updated styles for snowman to include gradients and move div down and style the hill
