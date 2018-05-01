@@ -1,38 +1,35 @@
 /* CSS Document */
 
-html{
-	height:100%;
-	overflow:hidden;
+html {
+    height: 100%;
+    overflow: hidden;
 }
-
 body {
-    color:#fff;
-	margin: 0;
-	width: 100%;
-	height: auto;
-	overflow: hidden;
-	background-color: #9cf;
-	background-image: -webkit-linear-gradient(left top, left bottom, from (#6af), to (#bdf));
-	background-image: -webkit-linear-gradient(#6af,#bdf);
-	background-image: -moz-linear-gradient(#6af, #bdf);
-	background-image: linear-gradient(#6af, #bdf);
-	
+    color: #fff;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: #9cf;
+    background-image: -webkit-linear-gradient(left top, left bottom, from (#6af), to (#bdf));
+    background-image: -webkit-linear-gradient(#6af, #bdf);
+    background-image: -moz-linear-gradient(#6af, #bdf);
+    background-image: linear-gradient(#6af, #bdf);
 }
 
-::-webkit-scrollbar{
-	display: none;
+::-webkit-scrollbar {
+ display: none;
 }
 /*Snowman*/
 
 .snowman {
-	text-align: center;
+    text-align: center;
     width: 250px;
     margin: auto;
     overflow: visible;
-	position:fixed;
-	bottom:-300px;
-	left: 40%;
-  
+    position: fixed;
+    bottom: -300px;
+    left: 40%;
 }
 .smBody, .smFeet, .smHead {
     border: thin #000 solid;
@@ -47,68 +44,56 @@ body {
     z-index: 10;
     width: 50%;
 }
-
-.hat{
-	
-	background-color: black;
-	width: 80px;
-	height: 80px;
-	border-top-left-radius: 15%;
-	border-top-right-radius: 15%;
-	position: absolute;
-	top: -70px;
-	left: 22px;
+.hat {
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    position: absolute;
+    top: -70px;
+    left: 22px;
 }
-
-.rim{
-	background-color: black;
-	width: 120px;
-	height: 30px;
-	border-radius: 50%;
-	position:absolute;
-	top: 70px;
-	left: -20px;
-	
-	
+.rim {
+    background-color: black;
+    width: 120px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;
+    left: -20px;
 }
-
-
-.face{
-	margin:40px auto;
-	height: 30px;
-	position: relative;
-	width: 50%;
+.face {
+    margin: 40px auto;
+    height: 30px;
+    position: relative;
+    width: 50%;
 }
-.eye, .nose, .mouth{
-	border: thin #000 solid;
-	width: 20px;
-	height: 15px;
-	background-color: black;
-	border-radius:45%;
+.eye, .nose, .mouth {
+    border: thin #000 solid;
+    width: 20px;
+    height: 15px;
+    background-color: black;
+    border-radius: 45%;
 }
-.leye{
-	float: left;
+.leye {
+    float: left;
 }
-
-.reye{
-	float:right;
+.reye {
+    float: right;
 }
-
-.nose, .mouth{
-	clear: both;
-	margin: auto;
+.nose, .mouth {
+    clear: both;
+    margin: auto;
 }
-
-.nose{
-	margin-top:20px;
-	height: 30px;
+.nose {
+    margin-top: 20px;
+    height: 30px;
 }
-
-.mouth{
-	margin-top: 10px;
-	width: 50px;
+.mouth {
+    margin-top: 10px;
+    width: 50px;
 }
-
 .smBody {
     height: 200px;
     position: relative;
@@ -122,69 +107,60 @@ body {
     z-index: 8;
     margin-bottom: -40px;
 }
-.hill{
-	border-top: 2px solid #000;
-	width: 300%;
-	margin-left: -150%;
-	min-height: 100px;
-	padding: 66%;
-	border-radius: 50%;
-	border-left-color:transparent;
-	border-right-color: transparent;
-	background-color: #fff;
-	
+.hill {
+    border-top: 2px solid #000;
+    width: 300%;
+    margin-left: -150%;
+    min-height: 100px;
+    padding: 66%;
+    border-radius: 50%;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    background-color: #fff;
 }
-.fir{
-	position:absolute;
-	margin: 0 auto;
-	width: 8em;
-	bottom:0;
-	margin-bottom: -150px;
-	
+.fir {
+    position: absolute;
+    margin: 0 auto;
+    width: 8em;
+    bottom: 0;
+    margin-bottom: -150px;
 }
-
-.fir-item{
-	margin: 0 auto;
-	width: 0;
-	height: 0;
-	border-left: 2.3em solid transparent;
-	border-right: 2.3em solid transparent;
-	border-bottom: 3em solid #16850c;
+.fir-item {
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-left: 2.3em solid transparent;
+    border-right: 2.3em solid transparent;
+    border-bottom: 3em solid #16850c;
 }
-
-.fir-item:nth-child(2){
-	margin-top:-1.3em;
-	border-left-width: 3em;
-	border-right-width: 3em;
-	border-bottom-width: 4em;
+.fir-item:nth-child(2) {
+    margin-top: -1.3em;
+    border-left-width: 3em;
+    border-right-width: 3em;
+    border-bottom-width: 4em;
 }
-
-.fir-item:nth-child(3){
-	margin-top: -1.7em;
-	border-left-width: 4em;
-	border-right-width: 4em;
-	border-bottom-width: 5em;
-	
+.fir-item:nth-child(3) {
+    margin-top: -1.7em;
+    border-left-width: 4em;
+    border-right-width: 4em;
+    border-bottom-width: 5em;
 }
-
-.fir-log{
-	margin: 0 auto;
-	width: 1.3em;
-	height: 1.3em;
-	background: #8c370f;
-	background: linear-gradient(#8c370f, #5c240a);
-	
+.fir-log {
+    margin: 0 auto;
+    width: 1.3em;
+    height: 1.3em;
+    background: #8c370f;
+    background: linear-gradient(#8c370f, #5c240a);
 }
-
-.mountain{
-	z-index: -10;
-	position:absolute;
-	left:-10px;
-	bottom:-580px;
-	width:60%;
-	height:90%;
-	background-color:#755223;
-	-moz-transform: scale(1) rotate(45deg);
+.mountain {
+    z-index: -10;
+    position: absolute;
+    left: -10px;
+    bottom: -580px;
+    width: 60%;
+    height: 90%;
+    background-color: #755223;
+    -moz-transform: scale(1) rotate(45deg);
     -webkit-transform: scale(1) rotate(45deg);
     -o-transform: scale(1) rotate(45deg);
     -ms-transform: scale(1) rotate(45deg);
@@ -195,7 +171,6 @@ body {
     -moz-box-shadow: 10px 14px 16px -16px #222;
     box-shadow: 10px 14px 16px -16px #222;
 }
-
 .mountain div {
     position: absolute;
     top: -20px;
@@ -205,4 +180,28 @@ body {
     background-color: #eee;
     border-radius: 10px
 }
-
+.snowflake {
+    position: absolute;
+    display: block;
+    position: absolute;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-image: -webkit-radial-gradient( center, circle farthest-corner, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 0) 100% );
+    background-image: -moz-radial-gradient( center, circle farthest-corner, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 0) 100% );
+    background-image: -ms-radial-gradient( center, circle farthest-corner, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 0) 100% );
+    background-image: radial-gradient( center, circle farthest-corner, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 0) 100% );
+}
+#snow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
